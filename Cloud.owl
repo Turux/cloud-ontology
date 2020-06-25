@@ -1,0 +1,2217 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://github.com/Turux/cloud-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://github.com/Turux/cloud-ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/mmls8/ontologies/2019/10/untitled-ontology-3#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="obda" IRI="https://w3id.org/obda/vocabulary#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#APT_Repository"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApacheSVN_Repository"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Application"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Binary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CPU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CPUArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClosedSourceKernel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Container"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContainerBaseImage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContainerOrchestrator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DatabaseService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DockerContainer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FileSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FileTransportService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Git_Repository"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HDD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTTPDService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HyperV_Hypervisor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hypervisor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IncomingMailService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InternetProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JailContainer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KVM_Hypervisor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kernel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kubernetes_ContainerOrchestrator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LXDContainer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoadBalancerNode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MailService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MasterNode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Memory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MemorySize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MemoryTransferRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MicroK8_ContainerOrchestrator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetworkInterface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetworkProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetworkProtocolService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpenSourceKernel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperatingSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutgoingMailService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Package"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PackageManager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProgrammingLanguage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProxyService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RAM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Repository"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLDatabaseService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SSD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Server"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitFrequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitMemorySize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitMemoryTransferRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitSize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VPNService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VirtualCPU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VirtualHardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VirtualMachine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VirtualMemory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VirtualNetworkInterface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VirtualRAM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VirtualStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WebService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WorkerNode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nonSQLDatabaseService"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#controlsNode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#controlsSoftware"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#controlsThing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasApplication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBaseImage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBinary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCPU"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCPUArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContainer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFileSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFrequency"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHardware"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasKernel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLibrary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMaxReadTransferRate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMaxTransferRate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMaxWriteTransferRate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMemory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMemorySize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMinimumMemorySize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNetwork"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNetworkInterface"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNetworkProtocol"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOperatingSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProtocol"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRAM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRepository"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasService"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSoftware"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStorage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasThing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVirtualCPU"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVirtualHardware"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVirtualMachine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVirtualNetworkInterface"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVirtualRAM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVirtualStorage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCompatibileWithThing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCompatibleWithCPU"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCompatibleWithCPUArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCompatibleWithFileSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCompatibleWithHardware"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCompatibleWithKernel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCompatibleWithNetworkProtocol"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCompatibleWithOperatingSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCompatibleWithProtocol"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCompatibleWithSoftware"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresBinary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresCPU"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresHardware"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresKernel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresLibrary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresMaximumMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresMemory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresMinMemorySize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresMinRAMSize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresMinStorageSize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresMinimumMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresNetworkInterface"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresOperatingSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresRAM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresSoftware"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresStorage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresThing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#writtenInProgrammingLanguage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMaker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNoOfCores"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNoOfThreads"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPhysicalAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSerialNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasURL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasVirtualisationInstruction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ARMv7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ARMv8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apache_HTTPD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CSharp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dante"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FTP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HTTPProxy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IMAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MQTT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mosquitto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NFS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OpenVPN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OpenVPNService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#POP3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SFTP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SMB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SMTP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SOCKS5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WireGuard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WireGuardService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ca-certificates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#danted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#docbook-xsl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gcc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#libssl-dev"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#libssl1.0.0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mosquitto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mosquitto_passwd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mosquitto_pub"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mosquitto_rr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mosquitto_sub"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#x64"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#x86"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#xsltproc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C++"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#g++"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#macAddress"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#APT_Repository"/>
+        <Class IRI="#Repository"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApacheSVN_Repository"/>
+        <Class IRI="#Repository"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Application"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Application"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLibrary"/>
+            <Class IRI="#Library"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Application"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiresBinary"/>
+            <Class IRI="#Binary"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Application"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiresLibrary"/>
+            <Class IRI="#Library"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Application"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiresMinRAMSize"/>
+            <Class IRI="#MemorySize"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Application"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiresMinStorageSize"/>
+            <Class IRI="#MemorySize"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Application"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasBinary"/>
+            <Class IRI="#Binary"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Binary"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Binary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCompatibleWithKernel"/>
+            <Class IRI="#Kernel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Binary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiresLibrary"/>
+            <Class IRI="#Library"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CPU"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CPU"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCPUArchitecture"/>
+            <Class IRI="#CPUArchitecture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CPU"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#Frequency"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CPU"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMemory"/>
+            <Class IRI="#Cache"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CPU"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasNoOfCores"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CPU"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasNoOfThreads"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CPU"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasVirtualisationInstruction"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cache"/>
+        <Class IRI="#Memory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClosedSourceKernel"/>
+        <Class IRI="#Kernel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Container"/>
+        <Class IRI="#Application"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Container"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasApplication"/>
+            <Class IRI="#Application"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Container"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVirtualNetworkInterface"/>
+            <Class IRI="#VirtualNetworkInterface"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Container"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCompatibleWithCPU"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#CPU"/>
+                <DataHasValue>
+                    <DataProperty IRI="#hasVirtualisationInstruction"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Container"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasBaseImage"/>
+            <Class IRI="#ContainerBaseImage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContainerBaseImage"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContainerBaseImage"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasOperatingSystem"/>
+            <Class IRI="#OperatingSystem"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContainerOrchestrator"/>
+        <Class IRI="#Application"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContainerOrchestrator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#WorkerNode"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContainerOrchestrator"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#MasterNode"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContainerOrchestrator"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#LoadBalancerNode"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DatabaseService"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DockerContainer"/>
+        <Class IRI="#Container"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FileSystem"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FileSystem"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FileTransportService"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frequency"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frequency"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#UnitFrequency"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Git_Repository"/>
+        <Class IRI="#Repository"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HDD"/>
+        <Class IRI="#Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTTPDService"/>
+        <Class IRI="#WebService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardware"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasMaker"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardware"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasSerialNumber"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HyperV_Hypervisor"/>
+        <Class IRI="#Hypervisor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hypervisor"/>
+        <Class IRI="#Application"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hypervisor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVirtualMachine"/>
+            <Class IRI="#VirtualMachine"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncomingMailService"/>
+        <Class IRI="#MailService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InternetProtocol"/>
+        <Class IRI="#NetworkProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JailContainer"/>
+        <Class IRI="#Container"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KVM_Hypervisor"/>
+        <Class IRI="#Hypervisor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kernel"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kernel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCompatibleWithCPU"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#CPU"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasCPUArchitecture"/>
+                    <Class IRI="#CPUArchitecture"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kernel"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kubernetes_ContainerOrchestrator"/>
+        <Class IRI="#ContainerOrchestrator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LXDContainer"/>
+        <Class IRI="#Container"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Library"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Library"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCompatibleWithKernel"/>
+            <Class IRI="#Kernel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadBalancerNode"/>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MailService"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MasterNode"/>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MasterNode"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#controlsNode"/>
+            <Class IRI="#WorkerNode"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#Unit"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Memory"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Memory"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasFrequency"/>
+            <Class IRI="#Frequency"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Memory"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMemorySize"/>
+            <Class IRI="#MemorySize"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MemorySize"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MemorySize"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#UnitMemorySize"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MemoryTransferRate"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MemoryTransferRate"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#UnitMemoryTransferRate"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MicroK8_ContainerOrchestrator"/>
+        <Class IRI="#ContainerOrchestrator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNetworkProtocol"/>
+            <Class IRI="#NetworkProtocol"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkInterface"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkInterface"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxTransferRate"/>
+            <Class IRI="#MemoryTransferRate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkInterface"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNetwork"/>
+            <Class IRI="#Network"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkInterface"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVirtualNetworkInterface"/>
+            <Class IRI="#VirtualNetworkInterface"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkInterface"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasPhysicalAddress"/>
+            <Datatype IRI="#macAddress"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkProtocol"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkProtocolService"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Node"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpenSourceKernel"/>
+        <Class IRI="#Kernel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperatingSystem"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperatingSystem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBinary"/>
+            <Class IRI="#Binary"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperatingSystem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLibrary"/>
+            <Class IRI="#Library"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperatingSystem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCompatibleWithFileSystem"/>
+            <Class IRI="#FileSystem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperatingSystem"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasKernel"/>
+            <Class IRI="#Kernel"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutgoingMailService"/>
+        <Class IRI="#MailService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Package"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Package"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasApplication"/>
+            <Class IRI="#Application"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PackageManager"/>
+        <Class IRI="#Application"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PackageManager"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasRepository"/>
+            <Class IRI="#Repository"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProxyService"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RAM"/>
+        <Class IRI="#Memory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Repository"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasApplication"/>
+            <Class IRI="#Application"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Repository"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasURL"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLDatabaseService"/>
+        <Class IRI="#DatabaseService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SSD"/>
+        <Class IRI="#Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Server"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHardware"/>
+            <Class IRI="#Hardware"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Server"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSoftware"/>
+            <Class IRI="#Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Server"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasApplication"/>
+            <Class IRI="#Application"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#writtenInProgrammingLanguage"/>
+            <Class IRI="#ProgrammingLanguage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasVersion"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Solution"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasService"/>
+            <Class IRI="#Service"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storage"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFileSystem"/>
+            <Class IRI="#FileSystem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxReadTransferRate"/>
+            <Class IRI="#MemoryTransferRate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxWriteTransferRate"/>
+            <Class IRI="#MemoryTransferRate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMemorySize"/>
+            <Class IRI="#MemorySize"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unit"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitFrequency"/>
+        <Class IRI="#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitMemorySize"/>
+        <Class IRI="#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitMemoryTransferRate"/>
+        <Class IRI="#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitSize"/>
+        <Class IRI="#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VPNService"/>
+        <Class IRI="#NetworkProtocolService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualCPU"/>
+        <Class IRI="#VirtualHardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualCPU"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasNoOfThreads"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualMachine"/>
+        <Class IRI="#Application"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualMachine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasApplication"/>
+            <Class IRI="#Application"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualMachine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVirtualNetworkInterface"/>
+            <Class IRI="#VirtualNetworkInterface"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualMachine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCompatibleWithCPU"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#CPU"/>
+                <DataHasValue>
+                    <DataProperty IRI="#hasVirtualisationInstruction"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualMachine"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasVirtualCPU"/>
+            <Class IRI="#VirtualCPU"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualMachine"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasVirtualRAM"/>
+            <Class IRI="#VirtualRAM"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualMachine"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasVirtualStorage"/>
+            <Class IRI="#VirtualStorage"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualMachine"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasOperatingSystem"/>
+            <Class IRI="#OperatingSystem"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualMemory"/>
+        <Class IRI="#VirtualHardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualMemory"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMemorySize"/>
+            <Class IRI="#MemorySize"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualNetworkInterface"/>
+        <Class IRI="#VirtualHardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualNetworkInterface"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaxTransferRate"/>
+            <Class IRI="#MemoryTransferRate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualNetworkInterface"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNetwork"/>
+            <Class IRI="#Network"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualNetworkInterface"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasPhysicalAddress"/>
+            <Datatype IRI="#macAddress"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualRAM"/>
+        <Class IRI="#VirtualMemory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualStorage"/>
+        <Class IRI="#VirtualHardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualStorage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFileSystem"/>
+            <Class IRI="#FileSystem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualStorage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMemorySize"/>
+            <Class IRI="#MemorySize"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WebService"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WorkerNode"/>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WorkerNode"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasContainer"/>
+            <Class IRI="#Container"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nonSQLDatabaseService"/>
+        <Class IRI="#DatabaseService"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#SQLDatabaseService"/>
+        <Class IRI="#nonSQLDatabaseService"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#CPUArchitecture"/>
+        <NamedIndividual IRI="#ARMv7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CPUArchitecture"/>
+        <NamedIndividual IRI="#ARMv8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HTTPDService"/>
+        <NamedIndividual IRI="#Apache_HTTPD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProgrammingLanguage"/>
+        <NamedIndividual IRI="#C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProgrammingLanguage"/>
+        <NamedIndividual IRI="#CSharp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Application"/>
+        <NamedIndividual IRI="#Dante"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FileTransportService"/>
+        <NamedIndividual IRI="#FTP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProxyService"/>
+        <NamedIndividual IRI="#HTTPProxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IncomingMailService"/>
+        <NamedIndividual IRI="#IMAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProgrammingLanguage"/>
+        <NamedIndividual IRI="#Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NetworkProtocolService"/>
+        <NamedIndividual IRI="#MQTT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Application"/>
+        <NamedIndividual IRI="#Mosquitto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FileTransportService"/>
+        <NamedIndividual IRI="#NFS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Application"/>
+        <NamedIndividual IRI="#OpenVPN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VPNService"/>
+        <NamedIndividual IRI="#OpenVPNService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IncomingMailService"/>
+        <NamedIndividual IRI="#POP3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProgrammingLanguage"/>
+        <NamedIndividual IRI="#Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FileTransportService"/>
+        <NamedIndividual IRI="#SFTP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FileTransportService"/>
+        <NamedIndividual IRI="#SMB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OutgoingMailService"/>
+        <NamedIndividual IRI="#SMTP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProxyService"/>
+        <NamedIndividual IRI="#SOCKS5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Application"/>
+        <NamedIndividual IRI="#WireGuard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VPNService"/>
+        <NamedIndividual IRI="#WireGuardService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Binary"/>
+        <NamedIndividual IRI="#ca-certificates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Binary"/>
+        <NamedIndividual IRI="#danted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Binary"/>
+        <NamedIndividual IRI="#docbook-xsl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Binary"/>
+        <NamedIndividual IRI="#gcc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Library"/>
+        <NamedIndividual IRI="#libssl-dev"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Library"/>
+        <NamedIndividual IRI="#libssl1.0.0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Binary"/>
+        <NamedIndividual IRI="#mosquitto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Binary"/>
+        <NamedIndividual IRI="#mosquitto_passwd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Binary"/>
+        <NamedIndividual IRI="#mosquitto_pub"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Binary"/>
+        <NamedIndividual IRI="#mosquitto_rr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Binary"/>
+        <NamedIndividual IRI="#mosquitto_sub"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CPUArchitecture"/>
+        <NamedIndividual IRI="#x64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CPUArchitecture"/>
+        <NamedIndividual IRI="#x86"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Binary"/>
+        <NamedIndividual IRI="#xsltproc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProgrammingLanguage"/>
+        <NamedIndividual IRI="#C++"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Binary"/>
+        <NamedIndividual IRI="#g++"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBinary"/>
+        <NamedIndividual IRI="#Dante"/>
+        <NamedIndividual IRI="#danted"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBinary"/>
+        <NamedIndividual IRI="#Mosquitto"/>
+        <NamedIndividual IRI="#mosquitto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBinary"/>
+        <NamedIndividual IRI="#Mosquitto"/>
+        <NamedIndividual IRI="#mosquitto_passwd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBinary"/>
+        <NamedIndividual IRI="#Mosquitto"/>
+        <NamedIndividual IRI="#mosquitto_pub"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBinary"/>
+        <NamedIndividual IRI="#Mosquitto"/>
+        <NamedIndividual IRI="#mosquitto_rr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBinary"/>
+        <NamedIndividual IRI="#Mosquitto"/>
+        <NamedIndividual IRI="#mosquitto_sub"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresBinary"/>
+        <NamedIndividual IRI="#Mosquitto"/>
+        <NamedIndividual IRI="#ca-certificates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresLibrary"/>
+        <NamedIndividual IRI="#Mosquitto"/>
+        <NamedIndividual IRI="#libssl1.0.0"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasVersion"/>
+        <NamedIndividual IRI="#Dante"/>
+        <Literal>1.4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasVersion"/>
+        <NamedIndividual IRI="#Mosquitto"/>
+        <Literal>1.6.10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasVersion"/>
+        <NamedIndividual IRI="#mosquitto"/>
+        <Literal>1.6.10</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#controlsNode"/>
+        <ObjectProperty IRI="#controlsSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#controlsSoftware"/>
+        <ObjectProperty IRI="#controlsThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasApplication"/>
+        <ObjectProperty IRI="#hasSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBaseImage"/>
+        <ObjectProperty IRI="#hasSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBinary"/>
+        <ObjectProperty IRI="#hasSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCPU"/>
+        <ObjectProperty IRI="#hasHardware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCPUArchitecture"/>
+        <ObjectProperty IRI="#hasThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasContainer"/>
+        <ObjectProperty IRI="#hasSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFileSystem"/>
+        <ObjectProperty IRI="#hasProtocol"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFrequency"/>
+        <ObjectProperty IRI="#hasMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasHardware"/>
+        <ObjectProperty IRI="#hasThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasKernel"/>
+        <ObjectProperty IRI="#hasSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLibrary"/>
+        <ObjectProperty IRI="#hasSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMaxReadTransferRate"/>
+        <ObjectProperty IRI="#hasMaxTransferRate"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMaxTransferRate"/>
+        <ObjectProperty IRI="#hasMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMaxWriteTransferRate"/>
+        <ObjectProperty IRI="#hasMaxTransferRate"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMeasure"/>
+        <ObjectProperty IRI="#hasThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMemory"/>
+        <ObjectProperty IRI="#hasHardware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMemorySize"/>
+        <ObjectProperty IRI="#hasMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMinimumMemorySize"/>
+        <ObjectProperty IRI="#hasMemorySize"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNetwork"/>
+        <ObjectProperty IRI="#hasThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNetworkInterface"/>
+        <ObjectProperty IRI="#hasHardware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNetworkProtocol"/>
+        <ObjectProperty IRI="#hasProtocol"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNode"/>
+        <ObjectProperty IRI="#hasSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasOperatingSystem"/>
+        <ObjectProperty IRI="#hasSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasProtocol"/>
+        <ObjectProperty IRI="#hasThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRAM"/>
+        <ObjectProperty IRI="#hasMemory"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRepository"/>
+        <ObjectProperty IRI="#hasThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasService"/>
+        <ObjectProperty IRI="#hasThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSoftware"/>
+        <ObjectProperty IRI="#hasThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasStorage"/>
+        <ObjectProperty IRI="#hasHardware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasUnit"/>
+        <ObjectProperty IRI="#hasThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVirtualCPU"/>
+        <ObjectProperty IRI="#hasVirtualHardware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVirtualHardware"/>
+        <ObjectProperty IRI="#hasThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVirtualMachine"/>
+        <ObjectProperty IRI="#hasSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVirtualNetworkInterface"/>
+        <ObjectProperty IRI="#hasVirtualHardware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVirtualRAM"/>
+        <ObjectProperty IRI="#hasVirtualHardware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVirtualStorage"/>
+        <ObjectProperty IRI="#hasVirtualHardware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCompatibleWithCPU"/>
+        <ObjectProperty IRI="#isCompatibleWithHardware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCompatibleWithCPUArchitecture"/>
+        <ObjectProperty IRI="#isCompatibileWithThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCompatibleWithFileSystem"/>
+        <ObjectProperty IRI="#isCompatibleWithProtocol"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCompatibleWithHardware"/>
+        <ObjectProperty IRI="#isCompatibileWithThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCompatibleWithKernel"/>
+        <ObjectProperty IRI="#isCompatibleWithSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCompatibleWithNetworkProtocol"/>
+        <ObjectProperty IRI="#isCompatibleWithProtocol"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCompatibleWithOperatingSystem"/>
+        <ObjectProperty IRI="#isCompatibleWithSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCompatibleWithProtocol"/>
+        <ObjectProperty IRI="#isCompatibileWithThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCompatibleWithSoftware"/>
+        <ObjectProperty IRI="#isCompatibileWithThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresBinary"/>
+        <ObjectProperty IRI="#requiresSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresCPU"/>
+        <ObjectProperty IRI="#requiresHardware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresHardware"/>
+        <ObjectProperty IRI="#requiresThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresKernel"/>
+        <ObjectProperty IRI="#requiresSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresLibrary"/>
+        <ObjectProperty IRI="#requiresSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresMaximumMeasure"/>
+        <ObjectProperty IRI="#requiresMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresMeasure"/>
+        <ObjectProperty IRI="#requiresThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresMemory"/>
+        <ObjectProperty IRI="#requiresHardware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresMinMemorySize"/>
+        <ObjectProperty IRI="#requiresMinimumMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresMinRAMSize"/>
+        <ObjectProperty IRI="#requiresMinMemorySize"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresMinStorageSize"/>
+        <ObjectProperty IRI="#requiresMinMemorySize"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresMinimumMeasure"/>
+        <ObjectProperty IRI="#requiresMeasure"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresNetworkInterface"/>
+        <ObjectProperty IRI="#requiresHardware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresOperatingSystem"/>
+        <ObjectProperty IRI="#requiresSoftware"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresRAM"/>
+        <ObjectProperty IRI="#requiresMemory"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresSoftware"/>
+        <ObjectProperty IRI="#requiresThing"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresStorage"/>
+        <ObjectProperty IRI="#requiresHardware"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCPUArchitecture"/>
+        <ObjectUnionOf>
+            <Class IRI="#CPU"/>
+            <Class IRI="#VirtualCPU"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFileSystem"/>
+        <ObjectUnionOf>
+            <Class IRI="#Storage"/>
+            <Class IRI="#VirtualStorage"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasKernel"/>
+        <Class IRI="#OperatingSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMaxTransferRate"/>
+        <ObjectUnionOf>
+            <Class IRI="#Storage"/>
+            <Class IRI="#VirtualStorage"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMemorySize"/>
+        <ObjectUnionOf>
+            <Class IRI="#Memory"/>
+            <Class IRI="#Storage"/>
+            <Class IRI="#VirtualMemory"/>
+            <Class IRI="#VirtualStorage"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNetworkProtocol"/>
+        <Class IRI="#Network"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRepository"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUnit"/>
+        <Class IRI="#Measure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCompatibleWithCPUArchitecture"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresBinary"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresLibrary"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#writtenInProgrammingLanguage"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasApplication"/>
+        <Class IRI="#Application"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBinary"/>
+        <Class IRI="#Binary"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCPU"/>
+        <Class IRI="#CPU"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCPUArchitecture"/>
+        <Class IRI="#CPUArchitecture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasContainer"/>
+        <Class IRI="#Container"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFileSystem"/>
+        <Class IRI="#FileSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFrequency"/>
+        <Class IRI="#Frequency"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHardware"/>
+        <Class IRI="#Hardware"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasKernel"/>
+        <Class IRI="#Kernel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLibrary"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMaxReadTransferRate"/>
+        <Class IRI="#MemoryTransferRate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMaxTransferRate"/>
+        <Class IRI="#MemoryTransferRate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMaxWriteTransferRate"/>
+        <Class IRI="#MemoryTransferRate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMeasure"/>
+        <Class IRI="#Measure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMemory"/>
+        <Class IRI="#Memory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMemorySize"/>
+        <Class IRI="#MemorySize"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNetwork"/>
+        <Class IRI="#Network"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNetworkInterface"/>
+        <Class IRI="#NetworkInterface"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNetworkProtocol"/>
+        <Class IRI="#NetworkProtocol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOperatingSystem"/>
+        <Class IRI="#OperatingSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProtocol"/>
+        <Class IRI="#Protocol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRAM"/>
+        <Class IRI="#RAM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRepository"/>
+        <Class IRI="#Repository"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasService"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSoftware"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStorage"/>
+        <Class IRI="#Storage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasThing"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUnit"/>
+        <Class IRI="#Unit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVirtualCPU"/>
+        <Class IRI="#VirtualCPU"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVirtualHardware"/>
+        <Class IRI="#VirtualHardware"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVirtualMachine"/>
+        <Class IRI="#VirtualMachine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVirtualNetworkInterface"/>
+        <Class IRI="#VirtualNetworkInterface"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVirtualRAM"/>
+        <Class IRI="#VirtualRAM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVirtualStorage"/>
+        <Class IRI="#VirtualStorage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCompatibileWithThing"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCompatibleWithCPUArchitecture"/>
+        <Class IRI="#CPUArchitecture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCompatibleWithFileSystem"/>
+        <Class IRI="#FileSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCompatibleWithHardware"/>
+        <Class IRI="#Hardware"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCompatibleWithKernel"/>
+        <Class IRI="#Kernel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCompatibleWithNetworkProtocol"/>
+        <Class IRI="#NetworkProtocol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCompatibleWithOperatingSystem"/>
+        <Class IRI="#OperatingSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCompatibleWithProtocol"/>
+        <Class IRI="#Protocol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCompatibleWithSoftware"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresBinary"/>
+        <Class IRI="#Binary"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresCPU"/>
+        <ObjectUnionOf>
+            <Class IRI="#CPU"/>
+            <Class IRI="#VirtualCPU"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresHardware"/>
+        <ObjectUnionOf>
+            <Class IRI="#Hardware"/>
+            <Class IRI="#VirtualHardware"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresKernel"/>
+        <Class IRI="#Kernel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresLibrary"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresMeasure"/>
+        <Class IRI="#Measure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresMemory"/>
+        <Class IRI="#Memory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresMinMemorySize"/>
+        <Class IRI="#MemorySize"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresNetworkInterface"/>
+        <ObjectUnionOf>
+            <Class IRI="#NetworkInterface"/>
+            <Class IRI="#VirtualNetworkInterface"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresOperatingSystem"/>
+        <Class IRI="#OperatingSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresRAM"/>
+        <ObjectUnionOf>
+            <Class IRI="#RAM"/>
+            <Class IRI="#VirtualRAM"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresSoftware"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresStorage"/>
+        <ObjectUnionOf>
+            <Class IRI="#Storage"/>
+            <Class IRI="#VirtualStorage"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresThing"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#writtenInProgrammingLanguage"/>
+        <Class IRI="#ProgrammingLanguage"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasName"/>
+    </FunctionalDataProperty>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasValue"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasVirtualisationInstruction"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
